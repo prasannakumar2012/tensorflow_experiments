@@ -8,4 +8,6 @@ sess.run (c,{a:a_value})
 sess.run ([c,b],{a:a_value})
 nvidia-smi
 
+writer = tf.summary.FileWriter('./my_graph',sess.graph)
+writer.close()
 
