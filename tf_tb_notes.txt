@@ -1,0 +1,11 @@
+tf.get_default_graph().as_graph_def()
+sess = tf.InteractiveSession ()
+sess = tf.Session()
+tensorboard  --logdir /Users/prasanna/tensorflow_models/tensorboard_log
+http://Prasannas-Air.home:6006
+file_writer = tf.summary.FileWriter('/Users/prasanna/tensorflow_models/tensorboard_log', self.sess.graph)
+sess.run (c,{a:a_value})
+sess.run ([c,b],{a:a_value})
+nvidia-smi
+
+
