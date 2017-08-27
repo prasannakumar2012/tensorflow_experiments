@@ -11,3 +11,6 @@ nvidia-smi
 writer = tf.summary.FileWriter('./my_graph',sess.graph)
 writer.close()
 
+
+
+
