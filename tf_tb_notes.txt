@@ -11,6 +11,14 @@ nvidia-smi
 writer = tf.summary.FileWriter('./my_graph',sess.graph)
 writer.close()
 
+stacked autoencoder
+http://cmgreen.io/2016/01/04/tensorflow_deep_autoencoder.html
+https://github.com/cmgreen210/TensorFlowDeepAutoencoder
 
 
+rnn
+https://jasdeep06.github.io/posts/Understanding-LSTM-in-Tensorflow-MNIST/
 
+
+gpu database
+https://www.mapd.com/platform/download-community/#gpucpu_docker
