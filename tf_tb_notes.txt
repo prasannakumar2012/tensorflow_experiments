@@ -22,3 +22,45 @@ https://jasdeep06.github.io/posts/Understanding-LSTM-in-Tensorflow-MNIST/
 
 gpu database
 https://www.mapd.com/platform/download-community/#gpucpu_docker
+
+https://github.com/rajshah4/outliers_shiny/blob/master/server.r
+
+lof, oneclassSVM, Isolation Forest
+
+train stacked deep rnn with multiple layers
+train bi-directional rnn
+train input sequence in reverse order for simpler optmization problem. insted of abc to xy, train with cba to xy
+
+instead of word level embedding (glove or word2vec) do character level encoding - less vocab and better accuracy
+
+dropout
+batch normalization
+better preprocessing
+
+
+limit order book
+time for which order sits on the book
+marketable order - immediately executes
+passsive order - sits on the book
+
+state of order book after every event -  that's what public sees
+seq - every time stemp, every event, state of order book. learn sequences
+20 price levels, element in vector is quantity at price level
+
+one day, one symbol,
+50 time steps, input at each time step is quantity at 20 price levels...10 bid and 10 ask
+
+https://github.com/keon/encdec
+python3 train.py
+tf version - 0.12
+https://theneuralperspective.com/2016/11/20/recurrent-neural-networks-rnn-part-3-encoder-decoder/
+
+https://github.com/ematvey/tensorflow-seq2seq-tutorials
+python3 tf 1.3
+https://github.com/llSourcell/seq2seq_model_live
+
+
+
+
+
+
